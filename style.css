@@ -1,23 +1,116 @@
-#app {
-	padding-top: 50px;
-	font-family: monospace;
-	width: 500px;
-	margin: 0px auto;
+.container {
+	align-content: left;
+	position: relative;
+	margin: auto;
+	max-width: 1280px;
+	padding: 54px;
+	font-family: futura;
+	font-weight: 100;
+	line-height: 1.5
+	border: solid, left, 6px, #dddddd;
 }
 
-.clear {
+
+p { 
+	font-family: futura;
+	font-size: 22px
+	font-weight: 100;
+	color: black;
+	padding: 20px;
+	text-align: left;
+	width: 500px;
+ }
+
+ h1 {
+ 
+ 	font-family: futura;
+ 	font-size: 34px;
+	font-weight: 100;
+	color: black;
+	padding: 20px;
+	text-align: left;
+	clear: both;
+ }
+
+ h3 {
+ 	font-family: futura;
+ 	font-size: 11px;
+	font-weight: 100;
+	color: black;
+	padding: 20px;
+	text-align: left;
+	clear: both;
+ }
+
+nav {
+	
+	font-family: futura;
+	font-variant: round;
+	font-weight: 100;
+	text-align: right;
+	max-width: 1280px;
+}
+
+body {
+
+	display: inline-block;
+}
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 20px;
+	border: 2px;
+	background-color: transparent;
 	clear: both;
 }
 
-.row div {
-	text-align: center;
-	width: 100px;
-	padding: 30px;
-	border: 1px dashed #252525;
-	float: left;
+#description {
+	max-width: 500px;
 }
 
-.row div:hover {
-	background-color: #cccccc;
-	cursor: pointer;
+#box1 {
+	border-color: #ccc;
+	background-color: #f4f4f4;
+	border: 2px solid black;
+	width: 31%;
+	height: 400px;
+	padding top: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	display: inline-block;
+
+}
+
+#box2 {
+	border-color: #ccc;
+	background-color: #f4f4f4;
+	border: 2px solid black;
+	width: 31%;
+	height: 400px;
+	padding top: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	display: inline-block;
+
+
+}
+
+#box3 {
+	border-color: #ccc;
+	background-color: #f4f4f4;
+	border: 2px solid black;
+	width: 31%;
+	height: 400px;
+	padding top: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	display: inline-block;
+}
+.copyright {
+	text-align: right;
+	max-width: 1280px;
 }
