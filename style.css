@@ -7,7 +7,7 @@
 	font-family: futura;
 	font-weight: 100;
 	line-height: 1.5
-	border: solid, left, 6px, #dddddd;
+	border: solid, left, 20px, #dddddd;
 }
 
 
@@ -16,7 +16,8 @@ p {
 	font-size: 22px
 	font-weight: 100;
 	color: black;
-	padding: 20px;
+	padding-left: 0px;
+	padding-bottom: 20px;
 	text-align: left;
 	width: 500px;
  }
@@ -27,7 +28,7 @@ p {
  	font-size: 34px;
 	font-weight: 100;
 	color: black;
-	padding: 20px;
+	padding: 0px;
 	text-align: left;
 	clear: both;
  }
@@ -50,10 +51,14 @@ nav {
 	text-align: right;
 	max-width: 1280px;
 }
+nav:hover {
+	color: pink;
+}
 
 body {
 
 	display: inline-block;
+	background-color: #fbfbfb;
 }
 
 footer {
@@ -63,6 +68,26 @@ footer {
 	border: 2px;
 	background-color: transparent;
 	clear: both;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+
+.logo {
+
+	max-width: 10%;
+	transition: all 0.3s ease-in-out 0s; 
+}
+
+.logo:hover
+{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
 }
 
 #description {
@@ -81,6 +106,14 @@ footer {
 	float: left;
 	display: inline-block;
 
+}
+
+.arrow {
+    max-width: 10%;
+}
+
+.preem {
+	padding top: 20px;
 }
 
 #box2 {

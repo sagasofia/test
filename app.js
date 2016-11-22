@@ -8,50 +8,13 @@ $(document).ready(function () {
 
 	})
 
-	$('#a20').click(function () {
-	count = count + 20;
-	$('#out').html(count);
 
-	})
+    $(document).ready(function() {
+        $('.arrow').click(function() {
+            window.location.href = this.id + 'work2.html';
+        });
+    });
 
-	$('#a30').click(function () {
-	count = count + 30;
-	$('#out').html(count);
-
-	})
-
-	$('#n10').click(function () {
-	count = count - 10;
-	$('#out').html(count);
-
-	})
-
-	$('#n20').click(function () {
-	count = count - 20;
-	$('#out').html(count);
-
-	})
-	$('#n30').click(function () {
-	count = count - 30;
-	$('#out').html(count);
-
-	})
-
-	$('#red').click(function () {
-	$('#out').css('background-color', 'red');
-
-	})
-
-	$('#blue').click(function () {
-	$('#out').css('background-color', 'blue');
-
-	})
-
-	$('#out').click(function () {
-	$('#out').css('background-color', 'white');
-	$('#out').html(count);
-
-	})
 
 })
 // 2. Add .click() event handlers for each of the boxes:
