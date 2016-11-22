@@ -31,6 +31,7 @@ p {
 	padding: 0px;
 	text-align: left;
 	clear: both;
+	overflow: hidden;
  }
 
  h3 {
@@ -51,9 +52,10 @@ nav {
 	text-align: right;
 	max-width: 1280px;
 }
-nav:hover {
-	color: pink;
+.links {
+	color: red;
 }
+
 
 body {
 
@@ -76,6 +78,10 @@ img {
 	display: block;
 }
 
+ul {
+	list-style: none;
+}
+
 
 .logo {
 
@@ -83,15 +89,25 @@ img {
 	transition: all 0.3s ease-in-out 0s; 
 }
 
-.logo:hover
-{
+.logo:hover {
     cursor: default;
     transform: rotate(360deg);
     transition: all 0.3s ease-in-out 0s;
 }
 
+.sausage {
+	max-width: 10%;
+	float: right;
+	background-image: url('sausage.png');
+}
+.sausage:hover {
+    cursor: pointer;
+    background-image: url('sausage-red.png');
+
+}
+
 #description {
-	max-width: 500px;
+	max-width: 40%;
 }
 
 #box1 {
@@ -147,3 +163,42 @@ img {
 	text-align: right;
 	max-width: 1280px;
 }
+
+.sausage, .small-links { 
+		display: none; 
+	}
+
+@media (max-width: 880px) { 
+	.links { 
+		display: none; 
+	} 
+	.sausage { 
+		display: block; 
+		float: right; 
+		cursor: pointer;
+		margin-top: 10px; 
+	}
+	.small-links {
+		display: block;
+		background-color: #f4f4f4;
+		text-decoration: none;
+		text-align: center;
+		line-height: 40px;
+		padding: 20px;
+	}
+
+	.clearfix:after {
+   		content: " "; /* Older browser do not support empty content */
+   		visibility: hidden;
+   		display: block;
+   		height: 0;
+   		clear: both;
+}	
+	#description {
+	max-width: 100%;
+}
+
+	}
+
+
+
