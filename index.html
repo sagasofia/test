@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
-
-	<header>
+	<head>
 		<title>final project saga</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-	</header>
-	
-	<body>
-		<div class="container">
-		 	<img class="logo" src="logo.png">
-		 	<img class="sausage" src="sausage-red.png">
+		<link rel="stylesheet" href="animate.css">
+	</head>
+	<body>	
+		<header>
 			<h1>Saga Lundqvist</h1>
-<nav>
-	<div class="links" id="navigation">
-		<a href="">Work</a>
-		<a href="about.html">About</a>
-		<a href="contact.html">Contact</a>
-	</div>
-	<div class="clearfix"></div>
+		<img class="logo" src="logo.png">
+		<img class="sausage" src="sausage-red.png">
+	<nav>
+		<div class="links">
+			<a href="">Work</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+		</div>
+<div class="clearfix"></div>
 			<div class="small-links">
 					<ul>
 						<li><a href="">Work</a></li>
@@ -25,7 +24,10 @@
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 			</div>
-</nav>
+</nav> 	
+
+		</header>
+		
 		<p id="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 		
 		<section >
@@ -41,8 +43,30 @@
 			<a href="work3.html"> <img src="Commerce_app_thumb.jpg"><Work 3></a>
 			</div>
 		</section>
+<section >
+			<div id="box1">
+			<a href="work1.html"> <img src="metrics-thumb.jpg"><Work 1></a>
+			</div>
+			
+			<div id="box2">
+			<a href="work2.html"> <img src="preem-thumbnail.jpg"><Work 2></a>
+			</div>
+			
+			<div id="box3">
+			<a href="work3.html"> <img src="Commerce_app_thumb.jpg"><Work 3></a>
+			</div>
+		</section>
+<div class="bounceIn">
+	<img class="arrow" src="arrow.png">
+</div>
+
+
 	</div>	
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	 <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 	<script src="app.js"></script>
 	</body>
 
