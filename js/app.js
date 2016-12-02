@@ -36,15 +36,15 @@ $(document).ready(function () {
         });
 	
 	var marker = new google.maps.Marker({
-	  position: {lat: 40.785091, lng: -73.968285},
+	  position: {lat: 40.729474, lng: -74.006049},
 	  map: map,
-	  title: 'Central Park, New York, NY'
+	  title: 'West Village, New York, NY'
 	});
 
 	var theMet = new google.maps.Marker({
-	  position: {lat: 40.779473, lng: -73.962536},
+	  position: {lat: 40.722702, lng: -73.952253},
 	  map: map,
-	  title: 'The Met, NY'
+	  title: 'Greenpoint, NY'
 	});
 }
 
