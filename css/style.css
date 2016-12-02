@@ -159,6 +159,20 @@ ul {
 	padding top: 20px;
 }
 
+#map {
+        height: 600px;
+        background: #fbfbfb;
+        width: 800px;
+        border-color: black 2px;
+
+      }
+ 
+ /*     html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }*/
+
 #box2 {
 	border-color: #ccc;
 	background-color: #f4f4f4;
@@ -172,6 +186,10 @@ ul {
 	display: inline-block;
 
 
+}
+
+.grid-item {
+	width: 426px;
 }
 
 #box3 {
