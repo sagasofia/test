@@ -11,21 +11,21 @@
 
 p { 
 	font-family: futura;
-	font-size: 22px
+	font-size: 28px
 	font-weight: 100;
 	color: black;
 	padding-left: 0px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: left;
-	width: 500px;
+	width: 60%;
  }
 
  h1 {
  	display: block;
  	font-family: futura;
- 	font-size: 1em;
-	font-weight: 100;
+ 	font-size: 2em;
+	font-weight: 300;
 	color: #F43B2A;
 	padding: 0px;
 	text-align: left;
@@ -35,7 +35,7 @@ p {
 
  h3 {
  	font-family: futura;
- 	font-size: 11px;
+ 	font-size: 14px;
 	font-weight: 100;
 	color: #F43B2A;
 	padding: 20px;
@@ -56,7 +56,7 @@ nav {
  	font-family: futura;
  	font-size: 1em;
 	font-weight: 100;
-	color: #F43B2A;
+	color: white;
 	padding-top: 20px;
 	text-align: center;
 	clear: both;
@@ -82,8 +82,8 @@ a:link:active, a:visited:active {
 }
 
 header {
-	background: #B6E3E4;
-	border-bottom: solid black;
+	background: #ffffff;
+	border-bottom: ;
 	height: 100px;
 	font-size: 34px;
 	top: 0;
@@ -93,14 +93,14 @@ header {
 	transition: all 1s;
 }
 .header-offset {
-	background: #fbfbfb;
-	font-size: 24px;
-	height: 50px;
+	background: #ffffff;
+	font-size: 22px;
+	height: 60px;
 }
 
 body {
 	display: inline-block;
-	background-color: #fbfbfb;
+	background-color: #f4f4f4;
 	padding-top: 100px;
 }
 
@@ -148,44 +148,37 @@ ul {
     background-image: url('sausage-red.png');
 
 }
-
+.intro {
+	font-size: 28px;
+}
 #description {
-	max-width: 40%;
+	max-width: 60%;
 }
 
 #box1 {
 	border-color: #ccc;
 	background-color: #f4f4f4;
 	border: 0px solid black;
-	width: 33.3%;
+	width: 33.33%;
 	height: 100%;
-	padding top: 20px;
+	padding top: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	float: left;
 	display: block;
-
 }
-
 .arrow {
     max-width: 5%;
-    float: right;
-    
+    float: right;  
 }
-.wow {
-
-}
-
 .preem {
 	padding top: 20px;
 }
-
 #map {
         height: 600px;
         background: #fbfbfb;
         width: 800px;
         border-color: black 2px;
-
       }
  
  /*     html, body {
@@ -200,7 +193,7 @@ ul {
 	border: 0px solid black;
 	width: 33.33%;
 	height: 100%;
-	padding top: 20px;
+	padding top: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	float: left;
@@ -222,7 +215,7 @@ ul {
 	border: 0px solid black;
 	width: 33.33%;
 	height: 100%;
-	padding top: 20px;
+	padding top: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	float: left;
@@ -247,7 +240,7 @@ ul {
 	max-width: 1280px;
 }
 .poster {
-	float: right;
+	float: left;
 }
 
 .sausage, .small-links { 
@@ -268,7 +261,7 @@ ul {
 	}
 	.small-links {
 		/*display: block;*/
-		background-color: #f4f4f4;
+		background-color: #ffffff;
 		text-decoration: none;
 		text-align: center;
 		line-height: 44px;
